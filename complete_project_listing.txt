@@ -1,0 +1,125 @@
+# CarMandi Project Complete File Listing
+
+## 1. Pages (App Router)
+- app/(auth)/layout.tsx
+- app/(auth)/login/page.tsx
+- app/(auth)/register/page.tsx
+- app/about/page.tsx
+- app/auction/[id]/page.tsx
+- app/auctions/page.tsx
+- app/car-inspection/page.tsx
+- app/contact/page.tsx
+- app/dashboard/page.tsx
+- app/faqs/page.tsx
+- app/globals.css
+- app/how-carmandi-works/page.tsx
+- app/how-to-bid/page.tsx
+- app/how-to-sell/page.tsx
+- app/layout.tsx
+- app/lib/mockData.ts
+- app/not-found.tsx
+- app/page.tsx
+- app/pay-now/page.tsx
+- app/payment-confirmed/page.tsx
+- app/payment-review/page.tsx
+- app/privacy-policy/page.tsx
+- app/refund-policy/page.tsx
+- app/search/page.tsx
+- app/sell-your-car/page.tsx
+- app/terms-condition/page.tsx
+
+## 2. Components
+### Core Components
+- components/AuctionCard.tsx
+- components/AuctionTimer.tsx
+- components/BidCard.tsx
+- components/BodyTypeSelector.tsx
+- components/BrowseBy.tsx
+- components/ExploreCategories.tsx
+- components/FeaturedAuctions.tsx
+- components/Footer.tsx
+- components/FooterLogo.tsx
+- components/Header.tsx
+- components/HeroSection.tsx
+- components/HowWeInspectSection.tsx
+- components/InspectionAssuranceSection.tsx
+- components/InspectionCard.tsx
+- components/InspectionFAQ.tsx
+- components/InspectionHeroSection.tsx
+- components/InspectionPricingSection.tsx
+- components/InspectionPromo.tsx
+- components/InspectionTestimonials.tsx
+- components/Logo.tsx
+- components/SearchResultsHeader.tsx
+- components/ServicePromo.tsx
+- components/SidebarFilters.tsx
+- components/SidebarInspectionPromo.tsx
+- components/WhatWeCheckSection.tsx
+- components/index.ts
+
+### Sub-Components
+- components/about/AboutFeatures.tsx
+- components/about/AboutGradient.tsx
+- components/about/AboutHero.tsx
+- components/about/index.ts
+- components/auction/AuctionGallery.tsx
+- components/auction/BidCard.tsx
+- components/auction/BidHistory.tsx
+- components/auction/InspectionGauge.tsx
+- components/auction/InspectionSummary.tsx
+- components/auction/QuestionsAndComments.tsx
+- components/auction/index.ts
+- components/auth/AuthCloseButton.tsx
+- components/auth/AuthFooterLinks.tsx
+- components/auth/AuthSocialButtons.tsx
+- components/auth/index.ts
+- components/common/ErrorBoundary.tsx
+- components/common/Skeleton.tsx
+- components/common/index.ts
+- components/dashboard/ChangePasswordTab.tsx
+- components/dashboard/DashboardHeader.tsx
+- components/dashboard/PaymentMethods.tsx
+- components/dashboard/ProfileBanner.tsx
+- components/dashboard/SettingsTab.tsx
+- components/dashboard/StatsCard.tsx
+- components/dashboard/index.ts
+- components/icons/CarIcon.tsx
+- components/icons/index.ts
+
+## 3. Constants (Data & Config)
+- constants/auctionData.ts
+- constants/bodyTypeData.ts
+- constants/browseData.ts
+- constants/exploreData.ts
+- constants/featuredData.ts
+- constants/footerData.ts
+- constants/headerData.ts
+- constants/heroData.ts
+- constants/index.ts
+- constants/inspectionData.ts
+- constants/searchData.ts
+- constants/seoData.ts
+- constants/serviceData.ts
+- constants/theme.ts
+
+## 4. Libraries & Utilities
+- lib/constants.ts
+- lib/hooks/index.ts
+- lib/hooks/useCountdown.ts
+- lib/hooks/useDebounce.ts
+- lib/hooks/useLocalStorage.ts
+- lib/hooks/useMediaQuery.ts
+- lib/hooks/useMounted.ts
+- lib/index.ts
+- lib/utils.ts
+
+## 5. Types
+- types/auction.ts
+- types/index.ts
+
+## 6. Root Configuration
+- next.config.mjs
+- package.json
+- tailwind.config.ts
+- tsconfig.json
+- postcss.config.mjs
